@@ -4,3 +4,9 @@ c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\bin\Debug\Donj
 c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\obj\Debug\Donjon.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\obj\Debug\Donjon.exe
 c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\obj\Debug\Donjon.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Donjon\Donjon\bin\Debug\Donjon.exe.config
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Donjon\Donjon\obj\Debug\Donjon.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Donjon\Donjon\obj\Debug\Donjon.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Donjon\Donjon\bin\Debug\Donjon.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Donjon\Donjon\bin\Debug\Donjon.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Donjon\Donjon\obj\Debug\Donjon.csprojResolveAssemblyReference.cache
