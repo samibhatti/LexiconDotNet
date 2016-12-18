@@ -9,6 +9,7 @@ namespace Övening3_Arv
     class Horse : Animal
     {
         private string sound = "neighing";
-        private string move = "Run";
+        private string move = "Gallop";
+        private string gallopLength;
     }
 }

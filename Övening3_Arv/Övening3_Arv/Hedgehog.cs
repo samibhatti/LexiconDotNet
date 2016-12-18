@@ -4,5 +4,6 @@
     {
         private string sound = "trrr";
         private string move = "Creep";
+        private string thornSize;
     }
 }

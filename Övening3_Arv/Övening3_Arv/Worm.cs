@@ -2,6 +2,7 @@
 {
     internal class Worm : Animal
     {
-        private string move = "Crawl"; 
+        private string move = "Crawl";
+        private string symmetricalBodyLength; 
     }
 }

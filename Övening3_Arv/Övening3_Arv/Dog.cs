@@ -3,6 +3,7 @@
     internal class Dog : Animal
     {
         private string sound = "Bark";
-        private string move = "Jump";
+        private string move = "Run";
+        private string smellPower;
     }
 }

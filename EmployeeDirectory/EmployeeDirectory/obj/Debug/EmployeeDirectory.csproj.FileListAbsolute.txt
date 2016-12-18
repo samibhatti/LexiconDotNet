@@ -4,3 +4,9 @@ c:\users\user\documents\visual studio 2015\Projects\EmployeeDirectory\EmployeeDi
 c:\users\user\documents\visual studio 2015\Projects\EmployeeDirectory\EmployeeDirectory\obj\Debug\EmployeeDirectory.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2015\Projects\EmployeeDirectory\EmployeeDirectory\obj\Debug\EmployeeDirectory.exe
 c:\users\user\documents\visual studio 2015\Projects\EmployeeDirectory\EmployeeDirectory\obj\Debug\EmployeeDirectory.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\EmployeeDirectory\EmployeeDirectory\bin\Debug\EmployeeDirectory.exe.config
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\EmployeeDirectory\EmployeeDirectory\obj\Debug\EmployeeDirectory.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\EmployeeDirectory\EmployeeDirectory\obj\Debug\EmployeeDirectory.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\EmployeeDirectory\EmployeeDirectory\bin\Debug\EmployeeDirectory.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\EmployeeDirectory\EmployeeDirectory\bin\Debug\EmployeeDirectory.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\EmployeeDirectory\EmployeeDirectory\obj\Debug\EmployeeDirectory.csprojResolveAssemblyReference.cache
