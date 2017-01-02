@@ -6,6 +6,8 @@ namespace Donjon
     {
         private Map map;
         private Hero hero; //11
+        private string log;
+
       //  private Monster monster;
 
         //private int height;
@@ -31,8 +33,13 @@ namespace Donjon
                 PrintMap();
                 //process actions
                 PrintStatus();
+                PrintVisible();
+                //PrintLog();
+
+                Console.WriteLine("What do you do?");
                 ConsoleKey key = GetInput();
 
+                // process actions
                 switch (key)
                 {
                     case ConsoleKey.UpArrow:
@@ -47,6 +54,10 @@ namespace Donjon
                     case ConsoleKey.RightArrow:
                         if (hero.X < map.Width - 1) hero.X += 1;
                         break;
+                    case ConsoleKey.Spacebar:
+                        var monster = map.Cells[hero.X, hero.Y].Monster;
+                        if (monster != null) Fight(monster);
+                        break;
 
                     default:
                         break;
@@ -54,6 +65,43 @@ namespace Donjon
             } while (true);
 
             // game over
+        }
+
+        /*private void PrintLog()
+        {
+            throw new NotImplementedException();
+        }*/
+
+        private void Fight(Monster monster)
+        {
+            Log(hero.Fight(monster));
+
+            // log += hero.Fight(monster) + "\n";
+            //string result = hero.Fight(monster);
+            Console.WriteLine(hero.Fight(monster));
+            if (monster.Health > 0)
+            {
+                //   result = monster.Fight(hero);
+                // Console.WriteLine(monster.Fight(hero));
+                Log(monster.Fight(hero));
+            }
+        }
+
+        private void Log(string message)
+        {
+            log += message + "\n"; //use string builder instead
+        }
+
+        private void PrintVisible()
+        {
+            var cell = map.Cells[hero.X, hero.Y];
+            var monster = cell.Monster;
+            //if (monster != null)
+            if (monster != cell.Monster)
+            {
+                Console.WriteLine();
+                Console.WriteLine($"You see a {monster.Name} ({monster.Health} hp)");
+            }
         }
 
         private void PopulateMap()
@@ -86,19 +134,27 @@ namespace Donjon
                 {
                     var cell = map.Cells[x, y]; //9
                     Console.Write(" ");
+
+                    Creature creature = null; //a
                     if ((hero.X) == x && hero.Y == y)
                     {
-                        Console.Write("H");
+                        creature = hero; //c
+                        //Console.Write("H"); //b
                     }
                     else if (cell.Monster != null)
                     {
-                        Console.ForegroundColor = cell.Monster.Color;
-                        Console.Write(cell.Monster.MapSymbol);
-                        Console.ResetColor();
+                        creature = cell.Monster; //d
                     }
                     else
                     {
                         Console.Write(".");
+                    }
+
+                    if (creature != null)                                                 //e
+                    {
+                        Console.ForegroundColor = creature.Color;
+                        Console.Write(creature.MapSymbol);
+                        Console.ResetColor();
                     }
                 }
            

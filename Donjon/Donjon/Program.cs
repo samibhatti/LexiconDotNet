@@ -10,7 +10,7 @@ namespace Donjon
     {
         static void Main(string[] args)
         {
-            Game game = new Game(width: 25, height: 20); //1
+            Game game = new Game(width: 15, height: 10); //1
             game.Run(); //2
         }
     }

@@ -1,6 +1,0 @@
-c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\bin\Debug\Donjon.exe.config
-c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\bin\Debug\Donjon.exe
-c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\bin\Debug\Donjon.pdb
-c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\obj\Debug\Donjon.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\obj\Debug\Donjon.exe
-c:\users\user\documents\visual studio 2015\Projects\Donjon\Donjon\obj\Debug\Donjon.pdb
