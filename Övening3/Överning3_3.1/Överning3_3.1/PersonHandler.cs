@@ -4,31 +4,44 @@ namespace Överning3_Inkapsling
 {
     internal class PersonHandler
     {
-
         public PersonHandler()
         {
 
         }
 
-       // private Person person;
-
         public void SetAge(Person pers, int age)
         {
-            //age = 80;
             pers.Age = age;
-            System.Console.WriteLine("inside personhandler: " + age);
         }
 
-        public void SetPerson(Person person, int age, string fname, string lname, double height, double weight)
+        public void SetFirstName(Person person, string fname)
         {
-            //Person person = new Person();
-            person.Age = age;
             person.FName = fname;
-            person.LName = lname;
-            person.Height = height;
-            person.Weight = weight;
-           // System.Console.WriteLine("inside personhandler: " + age + fname + lname + height + weight);
+        }
 
+        public void SetLastName(Person person, string lname)
+        {
+            person.LName = lname;
+        }
+
+        public void SetHeight(Person person, double height)
+        {
+            person.Height = height;
+
+        }
+
+        public void SetWeight(Person person, double weight)
+        {
+            person.Weight = weight;
+        }
+
+        public void SetPerson(Person person, int age=0, string fname="", string lname="", double height=0, double weight=0)
+        {
+            if (age >0) person.Age = age;
+            if (fname != "") person.FName = fname;
+            if (lname != "") person.LName = lname;
+            if (height > 0) person.Height = height;
+            if (weight > 0)  person.Weight = weight;
         }
 
         public Person CreatePerson(int age, string fname, string lname, double height, double weight)
@@ -45,12 +58,7 @@ namespace Överning3_Inkapsling
 
         public void PrintPerson(Person pers)
         {
-            Console.WriteLine("");
-            Console.WriteLine("age: " + pers.Age);
-            Console.WriteLine("fname: " + pers.FName);
-            Console.WriteLine("lname: " + pers.LName);
-            Console.WriteLine("height: " + pers.Height);
-            Console.WriteLine("weight: " + pers.Weight);
+            Console.WriteLine("\n age: " + pers.Age + "\n fname: " + pers.FName + "\n lname: " + pers.LName + "\n height: " + pers.Height + "\n weight: " + pers.Weight);
         }
     }
 }

@@ -43,7 +43,7 @@ namespace Överning3_Inkapsling
 
      public Person()
         {
-
         }
-}
+
+    }
 }

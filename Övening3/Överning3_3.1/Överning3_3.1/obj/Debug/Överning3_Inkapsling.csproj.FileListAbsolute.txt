@@ -10,3 +10,9 @@ C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Överning3_3.1\Överning3_3.1
 C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Överning3_3.1\Överning3_3.1\bin\Debug\Överning3_Inkapsling.exe
 C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Överning3_3.1\Överning3_3.1\bin\Debug\Överning3_Inkapsling.pdb
 C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Överning3_3.1\Överning3_3.1\obj\Debug\Överning3_Inkapsling.csprojResolveAssemblyReference.cache
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3\Överning3_3.1\Överning3_3.1\bin\Debug\Överning3_Inkapsling.exe.config
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3\Överning3_3.1\Överning3_3.1\obj\Debug\Överning3_Inkapsling.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3\Överning3_3.1\Överning3_3.1\obj\Debug\Överning3_Inkapsling.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3\Överning3_3.1\Överning3_3.1\bin\Debug\Överning3_Inkapsling.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3\Överning3_3.1\Överning3_3.1\bin\Debug\Överning3_Inkapsling.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3\Överning3_3.1\Överning3_3.1\obj\Debug\Överning3_Inkapsling.csprojResolveAssemblyReference.cache

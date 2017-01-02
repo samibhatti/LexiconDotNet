@@ -30,44 +30,36 @@ namespace Överning3_Inkapsling
             
             //Person person = new Person();
 
-            int age = 0;
-            string fname = "Bi";
-            string lname = "g";
-            double height = 0;
-            double weight = 0;
-
             PersonHandler personHandler = new PersonHandler();
 
-            //personHandler.SetAge(person, age);
-
-            Person person = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person, 75, "Bill", "Gates", 170, 90);
-            personHandler.PrintPerson(person);
-
-            Person person1 = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person1, 70, "Karin", "Eriksson", 160, 80);
+            Person person1 = personHandler.CreatePerson(75, "Karin", "Eriksson", 160, 80);
+            personHandler.SetAge(person1, 60);
             personHandler.PrintPerson(person1);
 
-            Person person2 = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person2, 70, "Peter", "Kol", 150, 60);
+            Person person2 = personHandler.CreatePerson(77, "Peter", "Kol", 150, 60);
+            personHandler.SetFirstName(person2, "Patrik");
             personHandler.PrintPerson(person2);
 
-            Person person3 = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person3, 70, "David", "Hammar", 177, 70);
+            Person person3 = personHandler.CreatePerson(80, "David", "Hammar", 177, 70);
+            personHandler.SetLastName(person3, "Henrik");
             personHandler.PrintPerson(person3);
 
-            Person person4 = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person4, 70, "Kalle", "Karlsson", 160, 65);
+            Person person4 = personHandler.CreatePerson(50, "Kalle", "Karlsson", 160, 65);
+            personHandler.SetHeight(person4, 170);
             personHandler.PrintPerson(person4);
 
-            Person person5 = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person5, 70, "Norman", "Veten", 180, 77);
+            Person person5 = personHandler.CreatePerson(40, "Norman", "Veten", 180, 77);
+            personHandler.SetWeight(person5, 80);
             personHandler.PrintPerson(person5);
 
-            Person person6 = personHandler.CreatePerson(age, fname, lname, height, weight);
-            personHandler.SetPerson(person6, 70, "Jin", "Ju", 175, 97);
+            Person person6 = personHandler.CreatePerson(35, "Jin", "Ju", 170, 60);
+            personHandler.SetPerson(person6, 30, "Jin", "Ju", 175, 55);
             personHandler.PrintPerson(person6);
-            
+
+            Person person7 = personHandler.CreatePerson(75, "Bill", "Gates", 170, 90);
+            personHandler.SetPerson(person7, 85, "Bill", "Gates", weight: 95);
+            personHandler.PrintPerson(person7);
+
         }
     }
 }
