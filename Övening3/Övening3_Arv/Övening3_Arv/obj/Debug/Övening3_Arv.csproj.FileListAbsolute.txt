@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2015\Projects\Övening3_Arv\Övening3_Arv\bin\Debug\Övening3_Arv.exe.config
+c:\users\user\documents\visual studio 2015\Projects\Övening3_Arv\Övening3_Arv\bin\Debug\Övening3_Arv.exe
+c:\users\user\documents\visual studio 2015\Projects\Övening3_Arv\Övening3_Arv\bin\Debug\Övening3_Arv.pdb
+c:\users\user\documents\visual studio 2015\Projects\Övening3_Arv\Övening3_Arv\obj\Debug\Övening3_Arv.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\Övening3_Arv\Övening3_Arv\obj\Debug\Övening3_Arv.exe
+c:\users\user\documents\visual studio 2015\Projects\Övening3_Arv\Övening3_Arv\obj\Debug\Övening3_Arv.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3_Arv\Övening3_Arv\bin\Debug\Övening3_Arv.exe.config
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3_Arv\Övening3_Arv\obj\Debug\Övening3_Arv.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3_Arv\Övening3_Arv\obj\Debug\Övening3_Arv.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3_Arv\Övening3_Arv\bin\Debug\Övening3_Arv.exe
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3_Arv\Övening3_Arv\bin\Debug\Övening3_Arv.pdb
+C:\Users\samibhatti\Documents\GitHub\LexiconDotNet\Övening3_Arv\Övening3_Arv\obj\Debug\Övening3_Arv.csprojResolveAssemblyReference.cache
