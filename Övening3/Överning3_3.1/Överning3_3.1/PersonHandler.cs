@@ -58,7 +58,7 @@ namespace Överning3_Inkapsling
 
         public void PrintPerson(Person pers)
         {
-            Console.WriteLine("\n age: " + pers.Age + "\n fname: " + pers.FName + "\n lname: " + pers.LName + "\n height: " + pers.Height + "\n weight: " + pers.Weight);
+            Console.WriteLine("\n age: " + pers.Age + "\n first name: " + pers.FName + "\n last name: " + pers.LName + "\n height: " + pers.Height + "\n weight: " + pers.Weight);
         }
     }
 }
