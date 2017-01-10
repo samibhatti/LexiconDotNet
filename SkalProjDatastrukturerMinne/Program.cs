@@ -280,8 +280,7 @@ namespace SkalProj_Datastrukturer_Minne
         static void ReverseText(string items, Stack stack2)
         {
             Console.Write("Items in Reversed Order using Stack: ");
-            //stack2 = new Stack();
-
+           
             foreach(char item in items)
             {
                 stack2.Push(item);
@@ -308,37 +307,18 @@ namespace SkalProj_Datastrukturer_Minne
             bool result = true;
             bool flag = true;
             List<char> stackList = new List<char>();
-             //do
-             //{
+            
                 Console.Write("Enter paranthesis: ");
                 charList = Console.ReadLine();
-
-                /*if (charList.Length % 2 != 0)
-                {
-                    Console.WriteLine("Not well-formed paranthesis!!");
-                    Console.WriteLine();
-                }
-                else
-                {*/
+              
                 foreach (char item in charList)
-                {
-                    /*if (!paranthesis.Contains(item))
-                    {
-                        Console.WriteLine("Re-enter, contains non-paranthesis characters");
-                        Console.WriteLine();
-                        Console.ReadKey();
-                        return;
-                    }*/
+                {                   
                     if (paranthesis.Contains(item))
                     {
                         stackList.Add(item);
                     }
                 }
-            //        flag = false;
-            //    //}
-            //} while (flag);
-
-            //do {
+           
                 foreach (char item in stackList)
                 {
                     if (openParanthesis.Contains(item))
@@ -399,10 +379,7 @@ namespace SkalProj_Datastrukturer_Minne
                 {
                     Console.WriteLine("Final Result: Well-formed paranthesis!!");
 
-                }
-            //    result = false;
-            //} while (result);
-            
+                }                      
         }
     }
 }
