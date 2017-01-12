@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2015\Projects\GrageApplikation\GrageApplikation\bin\Debug\GrageApplikation.exe.config
+c:\users\user\documents\visual studio 2015\Projects\GrageApplikation\GrageApplikation\bin\Debug\GrageApplikation.exe
+c:\users\user\documents\visual studio 2015\Projects\GrageApplikation\GrageApplikation\bin\Debug\GrageApplikation.pdb
+c:\users\user\documents\visual studio 2015\Projects\GrageApplikation\GrageApplikation\obj\Debug\GrageApplikation.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\GrageApplikation\GrageApplikation\obj\Debug\GrageApplikation.exe
+c:\users\user\documents\visual studio 2015\Projects\GrageApplikation\GrageApplikation\obj\Debug\GrageApplikation.pdb
